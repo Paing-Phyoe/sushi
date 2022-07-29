@@ -1,0 +1,68 @@
+import { Translation } from 'types/Translation';
+
+const mm_MM: Translation = {
+  // DASHBOARD
+  CREDIT: 'အကြွေး',
+  DEBIT: '‌ပေးငွေ',
+  RECENT_TRANSACTIONS: 'ယခင်လွှဲပြောင်းထားသော',
+  MY_ACCOUNTS: 'မိမိအကောင့်',
+
+  // ADD ACCOUNT
+  ADD_ACCOUNT: 'အကောင့်ထည့်',
+  ACCOUNT_NAME: 'အကောင့်နာမည်',
+  INITIAL_AMOUNT: 'ကနဦးအကောင့်',
+  CREATE_ACCOUNT: 'အကောင့်ပြုလုပ်',
+
+  // EDIT ACCOUNT
+  EDIT_ACCOUNT: 'အကောင့်တည်းဖြတ်',
+  UPDATE_ACCOUNT: 'အကောင့်ပြင်ဆင်',
+
+  // ACCOUNT DETAILS
+  ACCOUNT_DETAILS: 'အကောင့်အ‌သေးစိတ်',
+  INITIAL_BALANCE: 'ကနဦးပမာဏ',
+  DELETE_ACCOUNT: 'အကောင့်ဖျက်မလား?',
+  DELETE_ACCOUNT_INFO:
+    '{{accountName}} ၏ ငွေစာရင်းအပါအဝင် {{transactionCount}} နှင့်ချိတ်ဆက်ထားသော လွှဲပြောင်းမှုများအား အပြီးပယ်ဖျက်မလား။',
+
+  // NEW TRANSACTION
+  NEW_TRANSACTION: 'လွှဲပြောင်းမှုအသစ်',
+  CREATE_TRANSACTION: 'လွှပြောင်းခြင်းပြုလုပ်ရန်',
+  CATEGORY: 'အမျိုးအစား',
+  SOURCE_ACCOUNT: 'ပင်ရင်းအကောင့်',
+  DESTINATION_ACCOUNT: 'ရည်ညွှန်းအကောင့်',
+  TRANSFER: 'လွှဲပြောင်း',
+  SHORT_DESCRIPTION: 'အတိုချုပ်‌ဖော်ပြချက်',
+  AMOUNT: 'ပမာဏ',
+
+  // EDIT TRANSACTION
+  EDIT_TRANSACTION: 'လွှဲပြောင်းမှုတည်းဖြတ်',
+  UPDATE_TRANSACTION: 'လွှဲပြောင်းမှုပြင်ဆင်',
+
+  // TRANSACTION DETAILS
+  TRANSACTION_DETAILS: 'လွှဲပြောင်းမှုအသေးစိတ်',
+  ACCOUNT: 'အကောင့်',
+  DATE_CREATED: 'ရက်စွဲဖန်တီးပြီး',
+  DATE_UPDATED: 'ရက်စွဲပြင်ဆင်ပြီး',
+  DELETE_TRANSACTION: 'လွှဲပြောင်းမှုဖျက်မလား?',
+  DELETE_TRANSACTION_INFO:
+    'လွှဲပြောင်းမှုမှတ်တမ်းကို ပယ်ဖျက်သွားလိမ့်မည်။',
+  KEEP: 'သိမ်းမည်',
+  DELETE: 'ဖျက်မည်',
+
+  // Transactions
+  TRANSACTIONS: 'လွှဲပြောင်းမှုများ',
+  SEARCH: 'ရှာမည်',
+  DATE_RANGE: 'ရက်အတောအတွင်း',
+  SHOW_ALL: 'အကုန်ပြ',
+
+  // SETTINGS
+  SETTINGS: 'ဆက်တင်',
+  TRANSLATION_NAME: 'Myanmar (MM)',
+  CURRENCY: '‌ငွေကြေး',
+  LANGUAGE: 'ဘာသာစကား',
+  THEME: 'သင်းမ်',
+  THEME_LIGHT: 'အလင်း',
+  THEME_DARK: 'အမှောင်',
+};
+
+export default mm_MM;
